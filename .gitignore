@@ -1,0 +1,15 @@
+node_modules
+
+/generated/prisma
+
+dist
+.env
+.env.local
+coverage
+
+prisma/dev.db
+
+.vscode
+.idea
+
+.DS_Store
