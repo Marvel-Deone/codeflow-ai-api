@@ -18,7 +18,7 @@ import {
 import { CreateUserDto } from './dto/create-user.dto';
 import { UserResponseDto } from './responses/user-response.dto';
 import { UsersService } from './users.service';
-import { SuccessMessage } from 'src/common/decorators/success-message.decorator';
+import { SuccessMessage } from '../../../src/common/decorators/success-message.decorator';
 
 @ApiTags('Users')
 @Controller('users')

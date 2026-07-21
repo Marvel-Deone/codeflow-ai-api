@@ -19,7 +19,8 @@ import { LoginDto } from './dto/login.dto';
 import { RegisterDto } from './dto/register.dto';
 import { JwtAuthGuard } from './guards/jwt-auth.guard';
 import { AuthService } from './auth.service';
-import { SuccessMessage } from 'src/common/decorators/success-message.decorator';
+// import { SuccessMessage } from 'src/common/decorators/success-message.decorator';
+import { SuccessMessage } from '../../../src/common/decorators/success-message.decorator';
 import { CurrentUser } from './decorators/current-user.decorator';
 
 @ApiTags('Authentication')
