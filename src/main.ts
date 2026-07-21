@@ -21,7 +21,7 @@ async function bootstrap() {
   app.useGlobalInterceptors(new TransformResponseInterceptor());
 
   const config = app.get(ConfigService);
-  await app.listen(config.get<number>('app.port') ?? 4000);
+  await app.listen(config.get<number>('app.port') ?? 3000);
 }
 
 void bootstrap();
