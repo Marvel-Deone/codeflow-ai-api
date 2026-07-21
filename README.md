@@ -17,7 +17,6 @@ A production-ready REST API built with NestJS, Prisma, PostgreSQL, and JWT authe
 - PostgreSQL
 - Swagger API Documentation
 - Health Check Endpoint
-- Docker Support
 - CI with GitHub Actions
 
 ---
@@ -58,7 +57,6 @@ Each feature is organized into its own module with a clear separation of:
 | JWT | Authentication |
 | Passport | Authentication Strategy |
 | Swagger | API Documentation |
-| Docker | Containerization |
 | GitHub Actions | Continuous Integration |
 
 ---
@@ -108,14 +106,6 @@ PORT=3000
 
 ```bash
 npm run start:dev
-```
-
----
-
-## Running with Docker
-
-```bash
-docker compose up --build
 ```
 
 ---
